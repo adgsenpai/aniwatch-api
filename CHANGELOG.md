@@ -1,3 +1,7 @@
+## [1.21.2](https://github.com/ghoshRitesh12/aniwatch-api/compare/v1.21.1...v1.21.2) (2023-12-24)
+
+
+
 ## [1.21.1](https://github.com/ghoshRitesh12/aniwatch-api/compare/v1.21.0...v1.21.1) (2023-12-24)
 
 
