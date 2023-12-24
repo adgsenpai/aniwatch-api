@@ -5,7 +5,7 @@ import { resolve } from "path";
 import { config } from "dotenv";
 
 import corsConfig from "./config/cors.js";
-import { ratelimit } from "./config/ratelimit.js";
+
 import errorHandler from "./config/errorHandler.js";
 import notFoundHandler from "./config/notFoundHandler.js";
 
@@ -17,7 +17,7 @@ const PORT: number = Number(process.env.PORT) || 4000;
 
 app.use(morgan("dev"));
 app.use(corsConfig);
-app.use(ratelimit);
+
 
 app.use(express.static(resolve("public")));
 app.get("/health", (_, res) => res.sendStatus(200));
