@@ -3,7 +3,11 @@ name: "Docker Build & Trigger Deploy"
 on:
   release:
     types: [published]
-
+  workflow_dispatch:
+    
+  
+  merge_group:
+  
 jobs:
   build_docker_image:
     runs-on: ubuntu-latest
