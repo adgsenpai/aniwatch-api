@@ -1,4 +1,8 @@
-# 1.21.0 (2023-12-24)
+## [1.21.1](https://github.com/ghoshRitesh12/aniwatch-api/compare/v1.21.0...v1.21.1) (2023-12-24)
+
+
+
+# [1.21.0](https://github.com/ghoshRitesh12/aniwatch-api/compare/62efb7b8666d27476a816416f127db7b2162b073...v1.21.0) (2023-12-24)
 
 
 ### Bug Fixes
